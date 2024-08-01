@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background-color: #051B54;
+}
+
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+.navbar-toggler{
+    background-color: #FFFFFF33;
+}
+
+#iniciosesion{
+    background-color: #FFFFFF33;
+    border: none;
+    color: white;
+}
+
+#iniciosesion:hover{
+    background-color: #FFF;
+    color: #051B54;
+}
+
+#promocion{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#card-promocion{
+    background-color: #62DAD3;
+}
+
+#card-promocion .col-md-8 {
+    display: flex;
+    align-items: center;
+}
+#card-promocion .col-md-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-promocion .col-md-4 img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 0 5px 5px 0;
+}
+
+#imagen1{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.custom-shadow {
+    box-shadow: 0 0rem 0.6rem rgba(0, 0, 0, 0.4) !important;
+}
+
+@media (max-width: 576px) {
+    .btn-group button {
+        width: 30%;
+    }
+}
