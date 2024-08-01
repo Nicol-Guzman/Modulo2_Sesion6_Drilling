@@ -1,5 +1,5 @@
 # MODULO 2 - SESION 6
-### Rebound Exercise
+### Drilling
 
 Drilling de la Sesión 6 del Módulo 2.
 
